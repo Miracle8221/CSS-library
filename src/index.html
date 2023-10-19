@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="/dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body class="bg-slate-800">
+    
+  <nav class="bg-slate-600 border-gray-200 dark:bg-gray-900 fixed w-full z-20 a" >
+      <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+        <a href="#" class="flex items-center">
+            <img src="/src/Assets/98d475722497cde061289868b01966bc.jpg" class="h-8 mr-3" alt="" />
+            <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Miracle</span>
+        </a>
+        <div class="flex items-center md:order-2">
+            <button type="button" class="flex mr-3 text-sm bg-gray-800 rounded-full md:mr-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600" id="user-menu-button" aria-expanded="false" data-dropdown-toggle="user-dropdown" data-dropdown-placement="bottom">
+              <span class="sr-only">Open user menu</span>
+              <img class="w-8 h-8 rounded-full" src="/src/Assets/IMG_20201107_094853.jpg" alt="user photo">
+            </button>
+
+            <!-- <button data-collapse-toggle="navbar-user" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-user" aria-expanded="false">
+              <span class="sr-only">Open main menu</span>
+              <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+              </svg>
+          </button> -->
+        </div> 
+        <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1">
+          <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100  md:flex-row md:space-x-8 md:mt-0 md:border-0  dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+            <li>
+              <!-- <a href="#home" class="block py-2 pl-3 pr-4 text-gray-900 bg-black-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500 active">Home</a> -->
+              <a href="#home" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Home</a>
+            </li>
+            <li>
+              <a href="#about" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</a>
+            </li>
+            <li>
+              <a href="#projects" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Projects</a>
+            </li>
+            <li>
+              <a href="#contact" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+      
+<section class="bg-slate-800 dark:bg-gray-900 " id="home" >
+  <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 grid lg:grid-cols-2 gap-8 lg:gap-16">
+      <div class="flex flex-col justify-center">
+        <p class="mb-8 text-lg font-normal text-white lg:text-xl ">Hello, It's Me</p>
+          <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl dark:text-white">Anagwu Miracle</h1>
+          <p class="mb-8 text-lg font-normal text-white lg:text-3xl" id="output">And I'm a Frontend Developer</p>
+          <button  class="btn-1" id="click-me">Click Me</button>
+          <!-- <p class="mb-8 text-lg font-normal text-white lg:text-3xl ">And I Love it</p> -->
+      </div>
+      <div>
+          <img class=" rounded-full object-fill w-96 h-100" src="./Assets/IMG_20201107_094853.jpg">
+      </div>
+  </div>
+</section>
+
+
+<section class="bg-slate-800 dark:bg-gray-900" id="about">
+  <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 grid lg:grid-cols-2 gap-8 lg:gap-16">
+    <div>
+      <img class=" rounded-full object-fill w-96 h-100" src="./Assets/IMG_20201107_094853.jpg">
+  </div>
+
+      <div class="flex flex-col justify-center">
+          <h1 class=" text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">About <span class="text-teal-400">Me</span></h1>
+          <p class="mb-6 text-lg font-bold text-gray-500 lg:text-xl dark:text-gray-400">Frontend Developer!</p>
+          <p class="mb-8 text-lg font-normal text-white lg:text-xl ">My name is Anagwu Miracle Marachukwu. I'm currently a corper serving in Lagos state.The name of my town is Okija in Ihiala Local Government Area.I want to be a Frontend developer in other to solve problem and i want to get a high paying job from it.I'm dark in complexion,</p>
+          <div class="flex flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4">
+              <a href="#" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
+                  Read More
+              </a>
+          </div>
+      </div>
+  </div>
+</section>
+
+<section class="bg-red-50" id="projects">
+  <h1 class="mb-8 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl dark:text-white text-center">Projects</h1>
+  
+<div class="portfolio-container">
+  
+    <div class="portfolio-box">
+        <img class="img-p" src="/src/Assets/photo1.png" alt="">
+        <div class="portfolio-layer">
+          <h4>Insure page</h4>
+          <p>Media Query page</p>
+          <a href="https://miracle8221.github.io/week-11/"><i class='bx bx-link-external' ></i></a>
+      </div>
+    </div>
+    <div class="portfolio-box">
+        <img class="img-p" src="/src/Assets/photo2.png" alt="">
+        <div class="portfolio-layer">
+          <h4>Game</h4>
+          <p>Rock Paper Scissor game</p>
+          <a href=" https://miracle8221.github.io/Assign-week-10/"><i class='bx bx-link-external' ></i></a>
+      </div>
+    </div>
+    <div class="portfolio-box">
+        <img class="img-p" src="/src/Assets/photo3.png" alt="">
+        <div class="portfolio-layer">
+          <h4>Seamfix page</h4>
+          <p>Click the Icon below to view our page</p>
+          <a href="https://miracle8221.github.io/week-3/"><i class='bx bx-link-external' ></i></a>
+      </div>
+    </div>
+    <div class="portfolio-box">
+        <img class="img-p" src="/src/Assets/photo4.png" alt="">
+        <div class="portfolio-layer">
+          <h4>Web design</h4>
+          <p>Simple landing page</p>
+          <a href="https://miracle8221.github.io/landing-page-2/"><i class='bx bx-link-external' ></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact" >
+  <h2 class="heading">Contact <span>Me!</span></h2>
+  <form action="#">
+      <div class="input-box">
+          <input type="text" placeholder="Full Name">
+          <input type="email" placeholder="Email Address">
+      </div>
+      <div class="input-box">
+          <input type="number" placeholder="Mobile Number">
+          <input type="text" placeholder="Email Subject">
+      </div>
+      <textarea name="" id="" cols="30" rows="10"></textarea>
+      <input type="submit" value="Send Message" class="btn">
+  </form>
+</section>
+<!-- footer -->
+
+<footer class="bg-gray-300 rounded-lg shadow m-4 dark:bg-gray-800">
+  <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
+    <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="#" class="hover:underline">Miracle</a>. All Rights Reserved.
+  </span>
+  <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
+      <li>
+          <a href="#" class="mr-4 hover:underline md:mr-6 ">About</a>
+      </li>
+      <li>
+          <a href="#" class="mr-4 hover:underline md:mr-6">Privacy Policy</a>
+      </li>
+      <li>
+          <a href="#" class="mr-4 hover:underline md:mr-6">Licensing</a>
+      </li>
+      <li>
+          <a href="#" class="hover:underline">Contact</a>
+      </li>
+  </ul>
+  </div>
+</footer>
+
+<script src="index.js"></script>
+   
+  
+  
+
+</body>
+</html>
